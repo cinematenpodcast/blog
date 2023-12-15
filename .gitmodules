@@ -1,0 +1,4 @@
+[submodule "cinematenblog/public"]
+	path = cinematenblog/public
+	url = https://github.com/cinematenpodcast/cinematen.github.io.git
+	branch = main
