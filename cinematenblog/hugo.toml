@@ -1,0 +1,7 @@
+baseURL = 'https://cinematen.be/'
+languageCode = 'nl-be'
+title = 'Cinematenblogtest'
+theme = 'cinemateblogtheme'
+
+[params]
+    dateFormat = "02/01/2006"

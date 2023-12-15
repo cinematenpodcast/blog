@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[permalinks]
+posts = "/posts/:slug/"
+nieuws = "/nieuws/:slug/"
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Nieuws'
+pageRef = '/nieuws'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
